@@ -1,0 +1,5 @@
+require 'options'
+require 'mappings'
+require 'autocmd'
+require 'lazy_installer'
+require 'plugin_manager'
