@@ -44,7 +44,13 @@ local plugins = {
       'rafamadriz/friendly-snippets',
       'saadparwaiz1/cmp_luasnip'
     }
-  }
+  },
+  {
+    'williamboman/mason.nvim',
+    dependencies = {
+      'williamboman/mason-lspconfig.nvim'
+    }
+  },
 }
 
 lazy.setup(plugins)

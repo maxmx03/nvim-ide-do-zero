@@ -13,6 +13,12 @@ local mappings = {
     k = { '<cmd>Telescope keymaps<cr>', 'Keymaps' },
     h = { '<cmd>Telescope help_tags<cr>', 'Help Tags' },
     c = { '<cmd>Telescope commands<cr>', 'Commands' },
+  },
+  p = {
+    name = 'Package manager',
+    p = { '<cmd>Mason<cr>', 'Open Package Manager' },
+    u = { '<cmd>MasonUpdate<cr>', 'Update packages' },
+    d = { '<cmd>MasonUninstallAll<cr>', 'Uninstall All Packages' }
   }
 }
 
