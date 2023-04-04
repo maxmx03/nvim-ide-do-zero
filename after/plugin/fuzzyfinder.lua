@@ -2,7 +2,7 @@ local telescope = require 'telescope'
 
 telescope.setup {
   defaults = {
-    file_ignore_patterns = { 
+    file_ignore_patterns = {
       '%.png',
       '%.webp',
       '%.png',
