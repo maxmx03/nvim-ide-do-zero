@@ -7,10 +7,18 @@ local plugins = {
   'folke/neodev.nvim',
   'j-hui/fidget.nvim',
   'jose-elias-alvarez/null-ls.nvim',
+   'nvim-lualine/lualine.nvim',
   {
-    'folke/tokyonight.nvim',
+    'maxmx03/dracula.nvim',
     config = function()
-      vim.cmd 'colorscheme tokyonight-night'
+      local dracula = require 'dracula'
+
+      dracula.setup {
+        soft = false,
+        transparent = false,
+      }
+
+      vim.cmd 'colorscheme dracula'
     end
   },
   {
